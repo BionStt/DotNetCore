@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>DotNetCore.Validation</AssemblyName>
+        <Description>The package provides classes for validation.</Description>
+        <PackageId>DotNetCore.Validation</PackageId>
+        <PackageProjectUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Validation</PackageProjectUrl>
+        <PackageTags>Validation, Regex</PackageTags>
+        <RepositoryUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Validation</RepositoryUrl>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" Version="8.6.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Objects\DotNetCore.Objects.csproj" />
+    </ItemGroup>
+</Project>

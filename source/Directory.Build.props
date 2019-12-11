@@ -1,0 +1,13 @@
+<Project>
+    <PropertyGroup>
+        <Authors>DotNetCore</Authors>
+        <CodeAnalysisRuleset>$(MSBuildThisFileDirectory)Ruleset.ruleset</CodeAnalysisRuleset>
+        <Deterministic>true</Deterministic>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+        <LangVersion>latest</LangVersion>
+        <NeutralLanguage>en</NeutralLanguage>
+        <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+        <Version>10.2.0</Version>
+    </PropertyGroup>
+</Project>

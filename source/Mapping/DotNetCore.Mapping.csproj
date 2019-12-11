@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>DotNetCore.Mapping</AssemblyName>
+        <Description>The package provides a static class with extension methods for mapping.</Description>
+        <PackageId>DotNetCore.Mapping</PackageId>
+        <PackageProjectUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Mapping</PackageProjectUrl>
+        <PackageTags>Mapping, Mapper, ObjectMapping, ObjectMapper, ObjectClone, ObjectMerge</PackageTags>
+        <RepositoryUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Mapping</RepositoryUrl>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="AgileObjects.AgileMapper" Version="1.5.0" />
+    </ItemGroup>
+</Project>
